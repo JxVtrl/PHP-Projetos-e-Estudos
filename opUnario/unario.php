@@ -10,8 +10,7 @@
 <body>
 <div>
     <?php
-        echo "<h3>Operador Unário</h3>";
-        echo "(expressão)?verdadeiro:falso";
+        echo "<h3>Operador Unário</h3><h5>(expressão)?verdadeiro:falso</h5>";
         $x = 5;
         $y = 6;
         $r = $x>$y ? $x+$y : $x*$y;
